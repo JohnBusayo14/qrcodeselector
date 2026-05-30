@@ -14,13 +14,11 @@ import { EVENT } from '../data/event.js';
 
 // All images from src/assets — bundled & fingerprinted by Vite
 import heroKids from '../assets/aleksandar-andreev-g85rbcz8PPs-unsplash.jpg';
-import snacks from '../assets/snacks.avif';
 import bowling from '../assets/full-shot-happy-kids-playing-bowling.jpg';
 import artsCrafts from '../assets/arts and crafts.avif';
 import worship from '../assets/worship.jpg';
 
 const GALLERY = [
-  { src: snacks, alt: 'Children enjoying snacks during the break', label: 'Snack & Play' },
   { src: bowling, alt: 'Happy kids playing a bowling game', label: 'Games & Sports' },
   { src: artsCrafts, alt: 'Children making arts and crafts', label: 'Arts & Crafts' },
   { src: worship, alt: 'Children praying together during worship', label: 'Worship & Word' },

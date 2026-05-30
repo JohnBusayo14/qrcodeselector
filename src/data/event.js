@@ -18,14 +18,14 @@ export const EVENT = {
   overview: [
     { label: 'Duration', value: '4 Days (Tuesday – Friday)' },
     { label: 'Daily Time', value: '9:00 AM – 12:30 PM' },
-    { label: 'Age Group', value: 'Children aged 6 – 13 years' },
+    { label: 'Age Group', value: 'Children aged 6 – 12 years' },
   ],
   schedule: [
     { time: '9:00 – 9:15 AM', activity: 'Arrival & Registration', desc: 'Child tagging and verification of guardian documentation' },
     { time: '9:15 – 9:40 AM', activity: 'Morning Kick-off', desc: 'Opening prayer, light exercises, and worship songs' },
     { time: '9:40 – 10:00 AM', activity: 'Bible Study (Large Group)', desc: "Introduction of the day's theme and memory verse" },
     { time: '10:00 – 10:20 AM', activity: 'Age-Appropriate Breakouts', desc: 'In-depth discussion of the theme by age group' },
-    { time: '10:20 – 10:45 AM', activity: 'Snack & Play Break', desc: 'Children eat snacks brought from home and socialize' },
+    { time: '10:20 – 10:45 AM', activity: 'Play Break', desc: 'Children play and socialize' },
     { time: '10:45 – 11:30 AM', activity: 'Games & Sports', desc: 'Indoor/outdoor team-based games' },
     { time: '11:30 – 12:00 PM', activity: 'Arts & Crafts', desc: 'Creative activities designed per age group' },
     { time: '12:00 – 12:30 PM', activity: 'Closing Session', desc: 'Memory verse revision, team score updates, and closing prayer' },
@@ -33,7 +33,7 @@ export const EVENT = {
   scoring: [
     { name: 'Spirituality', desc: 'Memory verse retention, Bible study participation, and attentiveness' },
     { name: 'Sportsmanship', desc: 'Performance, teamwork, and conduct during games and sports' },
-    { name: 'Character & Discipline', desc: 'Cleanliness after snack time, obedience, and overall behaviour' },
+    { name: 'Character & Discipline', desc: 'Cleanliness after break time, obedience, and overall behaviour' },
   ],
   teams: [
     'Publicity, Reception & Team Scoring',

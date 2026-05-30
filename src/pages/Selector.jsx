@@ -9,7 +9,7 @@ const OPTIONS = [
     key: 'registration',
     label: 'Registration',
     sub: 'For parents / guardians',
-    desc: "Register your child (aged 6 – 13) for the Holiday Bible Club.",
+    desc: "Register your child (aged 6 – 12) for the Holiday Bible Club.",
     icon: ClipboardCheck,
     url: QR_LINKS.registration,
     accent: 'from-brand-600 to-brand-800',
