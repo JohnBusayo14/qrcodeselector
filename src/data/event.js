@@ -2,7 +2,7 @@
 // Point these two URLs at your live forms (Google Form, your registration
 // app, etc.) and the QR codes update automatically.
 export const QR_LINKS = {
-  volunteer: 'https://register.gospelar.com/r/volunteer-registeration',
+  volunteer: 'https://register.gospelar.com/r/volunteer-sign-up',
   registration: 'https://register.gospelar.com/r/holiday-bible-club-hbc-2',
 };
 
